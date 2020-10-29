@@ -1,4 +1,4 @@
-#Progress report
+# Progress report
 1) Do you have data fully in hand and if not, what blockers are you facing?
 
 > Yes, obtained dataset with fundus images of btoh eyes of 3500 participants (i.e. 7000 images in total). But might remove some due to low quality image taken (might reduce to 6500+ images).
