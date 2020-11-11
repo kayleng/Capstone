@@ -8,13 +8,13 @@
 
 #### Code
 **Notebooks:**
- 1. [Exploratory Data Analysis](./code/01_eda.ipynb)
+ 1. [Data Cleaning & Exploratory Data Analysis](./code/01_eda.ipynb)
  2. [Image Preprocessing](./code/02_preprocessing.ipynb)
  3. [Model and Conclusion](./code/03_modelling.ipynb)
  
 #### Assets
 - [data.csv](./assets/data.csv): Image metadata file
-- npz files that contains X_train, y_train, X_val, y_val, X_test, y_test
+- [256_img_data](https://drive.google.com/file/d/1UeyWb28l9xd6lVrghUsDdPcxZ08qEfNI/view?usp=sharing)
 
 
 ---
@@ -82,7 +82,7 @@ The model utilizes four convolutional layers. Batch Normalisation is applied aft
 
 After pooling, the data is flatten then fed through an output dense layer.
 
-The model was able to achieve an accuracy of 0.65 which is only slightly higher than the baseline accuracy of 0.55, while it is able to score a 0.81 on recall. 
+The model was able to achieve an accuracy of 0.64 which is only slightly higher than the baseline accuracy of 0.55, while it is able to score a 0.91 on recall. 
 
 ---
 ## Conclusions and Recommendations
