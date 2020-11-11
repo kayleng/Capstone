@@ -1,5 +1,6 @@
 # Detecting optic abnormalities through Fundus photography
-
+> *First level screening tool to reduce man-hours spent on grading retinal images* <br>
+> An image classification model with binary outcomes
 
 ### Repo Contents:
 
