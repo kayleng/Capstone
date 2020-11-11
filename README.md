@@ -16,6 +16,9 @@
 - [data.csv](./assets/data.csv): Image metadata file
 - [256_img_data](https://drive.google.com/file/d/1UeyWb28l9xd6lVrghUsDdPcxZ08qEfNI/view?usp=sharing)
 
+#### Saved model
+- [Weights from models](./saved_model/weights)
+- [Final model](https://drive.google.com/drive/folders/1g663DMBmBEd-p2sUvDUOgoRLk0m0e31B?usp=sharing)
 
 ---
 
