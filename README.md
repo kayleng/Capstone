@@ -58,7 +58,7 @@ At the end of this stage, there are 6,980 images remaining.
 ### Image Preprocessing
 
 <p align = "center">
-<img align="center" src="other-images/category-images.png" alt="Category images" height="658" width="736" />
+<img align="center" src="other-images/category-images.png" alt="Category images" height="auto" width="auto" />
 </p>
 
 As images were taken on different cameras and collated from various medical institutions, the dimensions and quality of each image is different. The first step taken was to crop based on empty row or column of pixels (black edges). 
