@@ -99,6 +99,6 @@ With a high enough accuracy, recall and AUC score, the model can then be deploye
 ---
 ## References
 
-https://www.snec.com.sg/patient-care/specialties-and-services/clinics-centres/sidrp
-https://www.annals.edu.sg/pdf/47VolNo1Jan2018/MemberOnly/V47N1p13.pdf
+https://www.snec.com.sg/patient-care/specialties-and-services/clinics-centres/sidrp 
+https://www.annals.edu.sg/pdf/47VolNo1Jan2018/MemberOnly/V47N1p13.pdf <br>
 https://www.opsweb.org/page/fundusphotography
