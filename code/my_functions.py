@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 from PIL import Image
 from sklearn.metrics import confusion_matrix, recall_score, precision_score, roc_auc_score, accuracy_score, roc_curve
 
@@ -17,6 +18,15 @@ def basic_eda(df, name):
 		pd.DataFrame(data=df.notnull().sum(), columns=['num_not_nulls']), 
 		pd.DataFrame(data=df.nunique(), columns=['unique_values'])], axis=1)} \n""")
 	
+
+#function to read NPZfiles
+#allow pickle to get item access
+def read_npz(filepath):
+    npz_file = np.load(file=filepath, allow_pickle=True)
+    img_variable = npz_file.get(npz_file.files[0])
+    img_variable = np.asarray(img_variable.tolist())
+    print(f"Array shape: {img_variable.shape}")
+    return img_variable
 
 def sample_category_images(col_name, num_cols, df, filepath):  
     """
