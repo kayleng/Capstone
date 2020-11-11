@@ -19,6 +19,14 @@ def basic_eda(df, name):
 		pd.DataFrame(data=df.nunique(), columns=['unique_values'])], axis=1)} \n""")
 	
 
+#inputs data into subplots
+def subplot_data(ax, ax_ravel, title, xlabel, ylabel):
+    ax[ax_ravel].set_title(title, fontsize=16, fontweight='bold')
+    ax[ax_ravel].set_xlabel(xlabel, fontsize=14)
+    ax[ax_ravel].set_ylabel(ylabel, fontsize=14)
+    ax[ax_ravel].tick_params(axis='both', labelsize=14)
+
+
 #function to read NPZfiles
 #allow pickle to get item access
 def read_npz(filepath):
