@@ -64,13 +64,13 @@ At the end of this stage, there are 6,980 images remaining.
 As images were taken on different cameras and collated from various medical institutions, the dimensions and quality of each image is different. The first step taken was to crop based on empty row or column of pixels (black edges). 
 
 <p align = "center">
-<img align="center" src="other-images/original_vs_cropped.png" alt="Cropped image" height="458" width="736" />
+<img align="center" src="other-images/original_vs_cropped.png" alt="Cropped image" height="212" width="454" />
 </p>
 
 Next, the images were resize with padding in order to maintain the aspect ratio. 
 
 <p align = "center">
-<img align="center" src="other-images/cropped_resized.png" alt="Cropped and resized image" height="458" width="736" />
+<img align="center" src="other-images/cropped_resized.png" alt="Cropped and resized image" height="212" width="454" />
 </p>
 
 ### Neural Network Architecture and evaluation
